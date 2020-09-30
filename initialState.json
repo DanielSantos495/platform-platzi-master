@@ -1,0 +1,70 @@
+{
+  "cohortUno": [
+    {
+      "id": 1,
+      "firstName": "Fernando",
+      "lastName": "Perez",
+      "cohort": 1,
+      "email": "fernando@gmail.com",
+      "github": "https://github.com/fernando"
+    },
+    {
+      "id": 2,
+      "firstName": "Manziso",
+      "lastName": "Pataquiva",
+      "cohort": 1,
+      "email": "Manziso@gmail.com",
+      "github": "https://github.com/Manziso"
+    }
+  ],
+  "cohortDos": [
+    {
+      "id": 1,
+      "firstName": "Johana",
+      "lastName": "Tamayo",
+      "cohort": 2,
+      "email": "mayo@gmail.com",
+      "github": "https://github.com/mayo"
+    }
+  ],
+  "cohortTres": [
+    {
+      "id": 1,
+      "firstName": "Ruben",
+      "lastName": "Obando",
+      "cohort":3,
+      "email": "rubando@gmail.com",
+      "github": "https://github.com/rubando"
+    }
+  ],
+  "cohortCuatro": [
+    {
+      "id": 1,
+      "firstName": "Freddy",
+      "lastName": "Platzi",
+      "cohort": 4,
+      "email": "platzivega@gmail.com",
+      "github": "https://github.com/platzivega"
+    }
+  ],
+  "cohortCinco": [
+    {
+      "id": 1,
+      "firstName": "Ana",
+      "lastName": "Platzi",
+      "cohort": 5,
+      "email": "anadeplatzi@gmail.com",
+      "github": "https://github.com/anadeplatzi"
+    }
+  ],
+  "cohortSeis": [
+    {
+      "id": 1,
+      "firstName": "Daniel",
+      "lastName": "Santos",
+      "cohort": 6,
+      "email": "dsantos0495@gmail.com",
+      "github": "https://github.com/DanielSantos495"
+    }
+  ]
+}
