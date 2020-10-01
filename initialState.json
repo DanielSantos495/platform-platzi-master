@@ -1,5 +1,5 @@
 {
-  "cohortUno": [
+  "studentsList":[
     {
       "id": 1,
       "firstName": "Fernando",
@@ -10,56 +10,54 @@
     },
     {
       "id": 2,
+      "firstName": "Fernando",
+      "lastName": "Solis",
+      "cohort": 1,
+      "email": "fernando@gmail.com",
+      "github": "https://github.com/fernando"
+    },
+    {
+      "id": 3,
       "firstName": "Manziso",
       "lastName": "Pataquiva",
       "cohort": 1,
       "email": "Manziso@gmail.com",
       "github": "https://github.com/Manziso"
-    }
-  ],
-  "cohortDos": [
+    },
     {
-      "id": 1,
+      "id": 4,
       "firstName": "Johana",
       "lastName": "Tamayo",
       "cohort": 2,
       "email": "mayo@gmail.com",
       "github": "https://github.com/mayo"
-    }
-  ],
-  "cohortTres": [
+    },
     {
-      "id": 1,
+      "id": 5,
       "firstName": "Ruben",
       "lastName": "Obando",
       "cohort":3,
       "email": "rubando@gmail.com",
       "github": "https://github.com/rubando"
-    }
-  ],
-  "cohortCuatro": [
+    },
     {
-      "id": 1,
+      "id": 6,
       "firstName": "Freddy",
       "lastName": "Platzi",
       "cohort": 4,
       "email": "platzivega@gmail.com",
       "github": "https://github.com/platzivega"
-    }
-  ],
-  "cohortCinco": [
+    },
     {
-      "id": 1,
+      "id": 7,
       "firstName": "Ana",
       "lastName": "Platzi",
       "cohort": 5,
       "email": "anadeplatzi@gmail.com",
       "github": "https://github.com/anadeplatzi"
-    }
-  ],
-  "cohortSeis": [
+    },
     {
-      "id": 1,
+      "id": 8,
       "firstName": "Daniel",
       "lastName": "Santos",
       "cohort": 6,

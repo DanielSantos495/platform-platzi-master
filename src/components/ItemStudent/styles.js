@@ -1,17 +1,34 @@
 import styled from 'styled-components'
 
+// const fadeIn = keyframes`
+//   0% {
+//     height: 0;
+//   }
+
+//   100% {
+//     height: 100px;
+//   }
+// `
+
+// const fadeOut = keyframes`
+//   0% {
+//     height: 100px;
+//   }
+//   100% {
+//     height: 0;
+//   }
+// `
+
 export const Article = styled.article`
   width: 98%;
   height: 100px;
-  padding: 10px;
-  margin: 0 auto 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto 10px;
   font-family: 'Lato', Helvetica;
   background-color: #fff;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2);
-
 `
 
 export const Img = styled.img`
