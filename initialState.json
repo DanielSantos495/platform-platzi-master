@@ -63,6 +63,14 @@
       "cohort": 6,
       "email": "dsantos0495@gmail.com",
       "github": "https://github.com/DanielSantos495"
+    },
+    {
+      "id": 8,
+      "firstName": "Daniel",
+      "lastName": "Santos",
+      "cohort": 5,
+      "email": "dsantos0495@gmail.com",
+      "github": "https://github.com/DanielSantos495"
     }
   ]
 }

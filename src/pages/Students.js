@@ -1,28 +1,28 @@
 import React, { useState, useEffect } from 'react'
 
-export const FetchinData = ({ api, children }) => {
+import { StudentsList } from '../components/StudentsLists/index'
+
+export const Students = () => {
+  const API = 'http://localhost:3000/studentsList'
+  const [studentsList, setstudentsList] = useState([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState('')
-  const [data, setData] = useState([])
 
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await window.fetch(api)
+        const response = await window.fetch(API)
         const data = await response.json()
-        setData(data)
+        setstudentsList(data)
         setLoading(false)
       } catch (error) {
         console.log(error.message)
-        setError(error)
       }
     }
     getData()
   }, [])
-
   return (
     <>
-      {children({ loading, error, data })}
+      <StudentsList data={studentsList} loading={loading} />
     </>
   )
 }

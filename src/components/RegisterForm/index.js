@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { navigate } from '@reach/router'
 
 import { ItemStudent } from '../ItemStudent/index'
 import { Register, Form, Label, Button } from './styles'
@@ -17,12 +18,17 @@ export const RegisterForm = () => {
       [e.target.name]: e.target.value
     })
   }
-  console.log(form)
+  const handleSubmit = e => {
+    e.preventDefault()
+    navigate('/')
+    console.log(e)
+  }
+
   return (
     <Register>
       <ItemStudent {...form} />
       <h2>Registrate en la lista de Platzi Master</h2>
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Label>
           Nombre
           <input

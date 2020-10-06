@@ -3,16 +3,15 @@ import { Router } from '@reach/router'
 
 import { GlobalStyles } from '../GlobalStyles/GlobalStyles'
 import { Layout } from '../components/Layout/index'
-import { Lists } from '../pages/Lists'
+import { Students } from '../pages/Students'
 import { RegisterForm } from '../components/RegisterForm/index'
 
 export const App = () => (
   <Layout>
     <GlobalStyles />
     <Router>
-      <Lists path='/list' />
+      <Students path='/' />
       <RegisterForm path='/register' />
-
     </Router>
   </Layout>
 )

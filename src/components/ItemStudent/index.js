@@ -4,9 +4,9 @@ import { Article, Div, Img, TagCohort } from './styles'
 import { AiFillGithub } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 
-export const ItemStudent = ({ firstName, lastName, cohort, email, github, fade }) => {
+export const ItemStudent = ({ firstName, lastName, cohort, email, github }) => {
   return (
-    <Article fade={fade}>
+    <Article>
       <Img src='' atl='Student avatar' />
       <Div>
         <p>{firstName} {lastName} <TagCohort cohortColor={parseInt(cohort)}>Cohort {parseInt(cohort)}</TagCohort></p>

@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "server": "json-server -w initialState.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "javascript",
@@ -21,7 +22,13 @@
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
     "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.4.2",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-styled-components": "^7.0.3",
+    "react-test-renderer": "^16.13.1",
     "standard": "^14.3.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
@@ -34,11 +41,18 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
     "styled-components": "^5.2.0"
   },
   "eslintConfig": {
     "extends": [
       "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/__test__/setupTest.js"
     ]
   }
 }
