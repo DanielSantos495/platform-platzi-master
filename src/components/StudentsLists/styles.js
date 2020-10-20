@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Link as LinkRouter } from 'react-router-dom'
+import { Link as LinkRouter } from '@reach/router'
 
 const fontFamily = 'Lato, Helvetica'
 
@@ -48,7 +48,7 @@ export const Filters = styled.button`
   cursor: pointer;
 `
 
-export const Linked = styled(LinkRouter)`
+export const Link = styled(LinkRouter)`
   width: 200px;
   height: 40px;
   margin: 0 0  0 40px;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { PanelOfCohort } from '../PanelOfCohort/index'
-import { SearchWrapper, Input, FilterTitle, Filters, Linked } from './styles'
+import { SearchWrapper, Input, FilterTitle, Filters, Link } from './styles'
 
 export const StudentsList = ({ data, loading }) => {
   const [resultFilterCohort, setResultFilterCohort] = useState([{ cohort: null }])
@@ -93,7 +93,7 @@ export const StudentsList = ({ data, loading }) => {
             onChange={handleInput}
           />
         </label>
-        <Linked to='/register'>Registrarse</Linked>
+        <Link to='/register'>Registrarse</Link>
       </SearchWrapper>
       <div>
         <FilterTitle>Filtros:</FilterTitle>
