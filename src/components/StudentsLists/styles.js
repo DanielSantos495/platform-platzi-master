@@ -48,7 +48,7 @@ export const Filters = styled.button`
   cursor: pointer;
 `
 
-export const Link = styled(LinkRouter)`
+export const Linked = styled(LinkRouter)`
   width: 200px;
   height: 40px;
   margin: 0 0  0 40px;
