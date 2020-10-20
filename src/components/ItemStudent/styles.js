@@ -34,7 +34,6 @@ export const Article = styled.article`
 export const Img = styled.img`
   width: 50px;
   height: 50px;
-  background-color: red;
   border-radius: 50%
 `
 
