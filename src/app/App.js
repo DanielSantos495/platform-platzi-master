@@ -9,7 +9,7 @@ import { RegisterForm } from '../components/RegisterForm/index'
 export const App = () => (
   <Layout>
     <GlobalStyles />
-    <Router>
+    <Router basepath='/platform-platzi-master/'>
       <Students path='/' />
       <RegisterForm path='/register' />
     </Router>
