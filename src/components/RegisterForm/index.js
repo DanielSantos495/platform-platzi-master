@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { navigate } from '@reach/router'
+import { useHistory } from 'react-router-dom'
 
 import { ItemStudent } from '../ItemStudent/index'
 import { Register, Form, Label, Button } from './styles'
 
 export const RegisterForm = () => {
+  const history = useHistory()
   const [form, setForm] = useState({
     firstName: '',
     lastName: '',
@@ -20,7 +21,7 @@ export const RegisterForm = () => {
   }
   const handleSubmit = e => {
     e.preventDefault()
-    navigate('/')
+    history.push('/')
     console.log(e)
   }
 
